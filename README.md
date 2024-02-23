@@ -1,3 +1,8 @@
+使用：<br/>
+implementation 'com.github.ZhaoChanghu:GalleryLayoutManager:1.1.0'  <br/>
+
+maven { url 'https://www.jitpack.io' } <br/>
+
 无任何改动，只是在RecyclerView的基础上自定义了  LayoutManager  <br/>
 用法简单，无需重写复写 <br/>
 可自定义选中样式，未选中样式 <br/>
