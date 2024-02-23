@@ -5,6 +5,7 @@
 使用方式如下:  <br/>
 
 GalleryLayoutManager manager = new GalleryLayoutManager(RecyclerView.HORIZONTAL);   <br/>
+//mRv 你的RecyclerView
 manager.attach(mRv);  <br/>
 //设置滑动缩放效果，可自定义并重写  <br/>
 manager.setItemTransformer(new Transformer());  <br/>
@@ -16,5 +17,5 @@ manager.setOnItemSelectedListener(new GalleryLayoutManager.OnItemSelectedListene
 public void onItemSelected(RecyclerView recyclerView,ArrayList<View> list,View item, int position) { <br/>
     //说明: list-当前列表的所有子条目， item-当前选中的 View， position-当前选中的下标 <br/>
                
-} <br/>
+   } <br/>
 }); <br/>
