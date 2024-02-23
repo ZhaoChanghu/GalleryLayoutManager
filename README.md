@@ -5,7 +5,7 @@
 使用方式如下:  <br/>
 
 GalleryLayoutManager manager = new GalleryLayoutManager(RecyclerView.HORIZONTAL);   <br/>
-//mRv 你的RecyclerView
+//mRv 你的RecyclerView <br/>
 manager.attach(mRv);  <br/>
 //设置滑动缩放效果，可自定义并重写  <br/>
 manager.setItemTransformer(new Transformer());  <br/>
